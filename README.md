@@ -5,7 +5,8 @@
 </p>
 
 ## News
-We have released the code and arXiv preprint for our new project [6-PACK](https://sites.google.com/view/6packtracking) which is based on this work and used for category-level 6D pose tracking.
+1. 2022-04-13. We reimplemented the function knn to make project be compatible with the lastest pytorch. This project works well on py3.8.8 + torch1.7.1 + torchvision0.8.2
+2. Older: We have released the code and arXiv preprint for our new project [6-PACK](https://sites.google.com/view/6packtracking) which is based on this work and used for category-level 6D pose tracking.
 
 ## Table of Content
 - [Overview](#overview)
