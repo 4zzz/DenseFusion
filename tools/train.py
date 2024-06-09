@@ -52,7 +52,7 @@ def main():
     random.seed(opt.manualSeed)
     torch.manual_seed(opt.manualSeed)
 
-    if opt.dataset == 'ycb':
+    if opt.dataset == 'ycb' or opt.dataset == 'ycb_jpg':
         opt.num_objects = 21 #number of object classes in the dataset
         opt.num_points = 1000 #number of points on the input pointcloud
         opt.outf = 'trained_models/ycb' #folder to save trained models
@@ -91,11 +91,15 @@ def main():
 
     if opt.dataset == 'ycb':
         dataset = PoseDataset_ycb('train', opt.num_points, True, opt.dataset_root, opt.noise_trans, opt.refine_start)
+    elif opt.dataset == 'ycb_jpg':
+        dataset = PoseDataset_ycb('train', opt.num_points, True, opt.dataset_root, opt.noise_trans, opt.refine_start, ext='jpg')
     elif opt.dataset == 'linemod':
         dataset = PoseDataset_linemod('train', opt.num_points, True, opt.dataset_root, opt.noise_trans, opt.refine_start)
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=opt.workers)
     if opt.dataset == 'ycb':
         test_dataset = PoseDataset_ycb('test', opt.num_points, False, opt.dataset_root, 0.0, opt.refine_start)
+    elif opt.dataset == 'ycb_jpg':
+        test_dataset = PoseDataset_ycb('test', opt.num_points, False, opt.dataset_root, 0.0, opt.refine_start, ext='jpg')
     elif opt.dataset == 'linemod':
         test_dataset = PoseDataset_linemod('test', opt.num_points, False, opt.dataset_root, 0.0, opt.refine_start)
     testdataloader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=opt.workers)
@@ -216,11 +220,15 @@ def main():
 
             if opt.dataset == 'ycb':
                 dataset = PoseDataset_ycb('train', opt.num_points, True, opt.dataset_root, opt.noise_trans, opt.refine_start)
+            elif opt.dataset == 'ycb_jpg':
+                dataset = PoseDataset_ycb('train', opt.num_points, True, opt.dataset_root, opt.noise_trans, opt.refine_start, ext='jpg')
             elif opt.dataset == 'linemod':
                 dataset = PoseDataset_linemod('train', opt.num_points, True, opt.dataset_root, opt.noise_trans, opt.refine_start)
             dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=opt.workers)
             if opt.dataset == 'ycb':
                 test_dataset = PoseDataset_ycb('test', opt.num_points, False, opt.dataset_root, 0.0, opt.refine_start)
+            elif opt.dataset == 'ycb_jpg':
+                test_dataset = PoseDataset_ycb('test', opt.num_points, False, opt.dataset_root, 0.0, opt.refine_start, ext='jpg')
             elif opt.dataset == 'linemod':
                 test_dataset = PoseDataset_linemod('test', opt.num_points, False, opt.dataset_root, 0.0, opt.refine_start)
             testdataloader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=opt.workers)
