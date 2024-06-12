@@ -1,0 +1,920 @@
+[
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_006_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_006_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_006.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_009_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_009_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_009.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_004_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_004_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_004.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_067_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_067_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_067.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_003_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_003_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_003.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_002_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_002_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_002.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_070_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_070_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_070.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_008_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_008_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_008.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_007_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_007_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_007.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_012_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_012_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_012.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_071_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_071_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_071.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_000_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_000_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_000.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_026_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_026_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_026.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_005_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_005_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_005.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_010_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_010_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_010.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_068_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_068_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_068.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_069_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_069_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_069.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_011_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_011_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_011.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 0,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_001_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_001_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/scan_001.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset0/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_038_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_038_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_038.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_070_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_070_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_070.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_066_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_066_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_066.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_069_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_069_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_069.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_040_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_040_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_040.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_039_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_039_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_039.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_041_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_041_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_041.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_067_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_067_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_067.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_071_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_071_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_071.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 1,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_068_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_068_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/scan_068.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset1/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_043_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_043_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_043.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_041_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_041_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_041.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_022_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_022_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_022.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_071_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_071_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_071.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_070_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_070_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_070.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_067_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_067_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_067.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_054_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_054_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_054.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_056_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_056_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_056.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_040_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_040_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_040.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_019_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_019_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_019.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_069_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_069_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_069.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_042_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_042_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_042.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_039_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_039_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_039.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_038_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_038_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_038.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_021_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_021_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_021.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_066_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_066_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_066.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_068_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_068_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_068.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_020_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_020_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_020.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 2,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_055_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_055_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/scan_055.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/dataset3/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_032_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_032_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_032.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_026_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_026_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_026.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_030_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_030_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_030.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_008_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_008_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_008.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_003_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_003_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_003.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_011_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_011_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_011.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_002_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_002_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_002.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_001_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_001_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_001.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_004_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_004_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_004.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_007_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_007_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_007.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_009_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_009_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_009.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_005_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_005_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_005.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_006_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_006_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_006.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 3,
+        "type": "real",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_033_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_033_intensitymap.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/scan_033.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/FirstRealSet/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_003_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_003_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_003.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_001_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_001_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_001.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_021_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_021_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_021.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_009_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_009_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_009.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_004_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_004_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_004.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_067_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_067_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_067.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_007_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_007_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_007.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_016_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_016_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_016.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_010_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_010_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_010.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_002_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_002_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_002.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_020_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_020_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_020.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_005_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_005_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_005.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_071_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_071_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_071.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_070_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_070_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_070.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_060_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_060_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_060.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_018_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_018_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_018.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_008_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_008_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_008.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_015_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_015_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_015.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_069_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_069_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_069.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_012_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_012_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_012.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_014_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_014_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_014.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_043_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_043_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_043.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_017_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_017_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_017.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_013_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_013_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_013.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_026_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_026_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_026.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_000_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_000_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_000.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_011_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_011_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_011.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_019_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_019_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_019.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_006_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_006_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_006.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 5,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_068_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_068_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/scan_068.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset5_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_067_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_067_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_067.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_069_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_069_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_069.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_003_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_003_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_003.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_068_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_068_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_068.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_002_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_002_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_002.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_000_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_000_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_000.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_001_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_001_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_001.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_004_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_004_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_004.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_070_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_070_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_070.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    },
+    {
+        "class": 6,
+        "type": "synthetic",
+        "positions_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_005_positions.exr",
+        "image_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_005_colors.png",
+        "transformation_file": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/scan_005.txt",
+        "model500": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-500.ply",
+        "model1000": "datasets/bin_dataset/Gajdosech_etal_2021_dataset/VISIGRAPP_TRAIN/synth_dataset6_random_origin/bin-1000.ply"
+    }
+]
