@@ -128,12 +128,14 @@ class BinDataset(torch.utils.data.Dataset):
             point_cloud.append(point)
         return np.array(point_cloud)
 
-    def __init__(self, dataset_root, mode, num_points, width, height):
+    def __init__(self, dataset_root, mode, num_points, width, height, preload=True, return_transform_mat=False):
         self.width = width
         self.height = height
         self.num_points = num_points
         self.model_points_num = 500
         self.num_pt = num_points
+        self.isPreloaded = preload
+        self.return_transform_mat = return_transform_mat
 
         if mode == 'train':
             entries = load_json('datasets/bin_dataset/train.json')
@@ -147,12 +149,13 @@ class BinDataset(torch.utils.data.Dataset):
         self.entries = entries
         self.norm = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
         self.preloaded = []
-        for i in range(len(entries)):
-            print('preloading', i+1, '/', len(entries))
-            self.preloaded.append(self.preload(i))
+        if preload:
+          for i in range(len(entries)):
+              print('preloading', i+1, '/', len(entries))
+              self.preloaded.append(self.preload(i))
 
     def __getitem__(self, index):
-        return self.preloaded[index]
+        return self.preloaded[index] if self.isPreloaded else self.preload(index)
 
     def preload(self, index):
         img = self.load_rgb(index)
@@ -171,12 +174,21 @@ class BinDataset(torch.utils.data.Dataset):
 
         scale = 1.0/1000.0
 
-        return torch.from_numpy(xyz.astype(np.float32)*scale), \
-            torch.LongTensor(choose.astype(np.int32)), \
-            self.norm(torch.from_numpy(img.astype(np.float32))), \
-            torch.from_numpy(target.astype(np.float32)*scale), \
-            torch.from_numpy(model_points.astype(np.float32)*scale), \
-            torch.LongTensor([self.entries[index]['class']])
+        if self.return_transform_mat == False:
+            return torch.from_numpy(xyz.astype(np.float32)*scale), \
+                torch.LongTensor(choose.astype(np.int32)), \
+                self.norm(torch.from_numpy(img.astype(np.float32))), \
+                torch.from_numpy(target.astype(np.float32)*scale), \
+                torch.from_numpy(model_points.astype(np.float32)*scale), \
+                torch.LongTensor([self.entries[index]['class']])
+        else:
+            return torch.from_numpy(xyz.astype(np.float32)*scale), \
+                torch.LongTensor(choose.astype(np.int32)), \
+                self.norm(torch.from_numpy(img.astype(np.float32))), \
+                torch.from_numpy(target.astype(np.float32)*scale), \
+                torch.from_numpy(model_points.astype(np.float32)*scale), \
+                torch.LongTensor([self.entries[index]['class']]), \
+                transform
 
     def __len__(self):
         return len(self.entries)
