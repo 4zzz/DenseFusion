@@ -45,6 +45,7 @@ parser.add_argument('--nepoch', type=int, default=500, help='max number of epoch
 parser.add_argument('--resume_posenet', type=str, default = '',  help='resume PoseNet model')
 parser.add_argument('--resume_refinenet', type=str, default = '',  help='resume PoseRefineNet model')
 parser.add_argument('--start_epoch', type=int, default = 1, help='which epoch to start')
+parser.add_argument('--num_obj', type=int, default=8, help='number of object classes in the dataset')
 opt = parser.parse_args()
 
 
@@ -66,8 +67,8 @@ def main():
         opt.log_dir = 'experiments/logs/linemod'
         opt.repeat_epoch = 20
     elif opt.dataset == 'bin':
-        opt.num_points = 1000
-        opt.num_objects = 8
+        opt.num_points = 1500
+        #opt.num_objects = 21
         opt.outf = 'trained_models/bin'
         opt.log_dir = 'experiments/logs/bin'
         opt.repeat_epoch = 20

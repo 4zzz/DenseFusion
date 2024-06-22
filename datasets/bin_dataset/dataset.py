@@ -188,7 +188,7 @@ class BinDataset(torch.utils.data.Dataset):
                 torch.from_numpy(target.astype(np.float32)*scale), \
                 torch.from_numpy(model_points.astype(np.float32)*scale), \
                 torch.LongTensor([self.entries[index]['class']]), \
-                transform
+                transform, self.entries[index]['positions_file']
 
     def __len__(self):
         return len(self.entries)

@@ -7,20 +7,23 @@ from lib.transformations import quaternion_matrix, quaternion_from_matrix
 import numpy as np
 from matplotlib import pyplot as plt
 import copy
+import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--estimator_weights', type=str, help='estimator model weights')
 parser.add_argument('--refiner_weights', type=str, help='estimator model weights')
-parser.add_argument('--positions', type=str, help='exr file with structured pointcloud')
+parser.add_argument('--output_json', type=str, help='path where to save results')
+parser.add_argument('--num_points', type=int, default=1000, help='number of points on the input pointcloud')
+parser.add_argument('--num_obj', type=int, default=8, help='number of object classes in the dataset')
 opt = parser.parse_args()
 
-num_obj = 8
-num_points = 1000
-np.random.seed(10)
+num_obj = opt.num_obj # 21
+num_points =  opt.num_points # 1000
+np.random.seed(40)
 test_dataset = BinDataset(
     dataset_root='datasets/bin_dataset/Gajdosech_etal_2021_dataset/',
     mode='test',
-    num_points=1000,
+    num_points=num_points,
     width=256,
     height=256,
     preload=False,
@@ -30,9 +33,6 @@ test_dataset = BinDataset(
 dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=False)
 
 estimator = PoseNet(num_points = num_points, num_obj = num_obj)
-
-#torch.onnx.export(estimator, X_test, 'iris.onnx', input_names=["features"], output_names=["logits"])
-
 estimator.cuda()
 estimator.load_state_dict(torch.load(opt.estimator_weights))
 estimator.eval()
@@ -47,13 +47,18 @@ def to_batch(t):
     return tuple([i.unsqueeze(0) for i in t])
 
 
+def save_json(obj, file):
+    json_object = json.dumps(obj, indent=4)
+    with open(file, "w") as outfile:
+        outfile.write(json_object)
+
+
 def rotation_error(R1, R2):
   # params:
   # R1 - (3, 3) array representing a rotation matrix
   # R2 - (3, 3) array representing a rotation matrix
   # returns:
   # angle - angle between the two rotations in degrees
-
   R2a = R2
   R2b = np.matrix.copy(R2)
   R2b[:, :2] *= -1
@@ -65,17 +70,17 @@ def rotation_error(R1, R2):
   error2 = np.arccos((np.trace(R_d) - 1)/2) * 180 / np.pi
   return min(error1, error2)
 
-
+exr_files = []
 estimated_r_err = []
 estimated_t_err = []
 refined_r_err = []
 refined_t_err = []
 
-for i in range(len(test_dataset)):
-    i = 30
-    wth = test_dataset[i]
-    #print('tuple len', len(wth))
-    cloud, choose, img, target, model_points, idx, target_mat = test_dataset[i]
+results = []
+
+ll = len(test_dataset)
+for i in range(ll):
+    cloud, choose, img, target, model_points, idx, target_mat, exr_file = test_dataset[i]
     cloud, choose, img, target, model_points, idx = to_batch((cloud, choose, img, target, model_points, idx))
     cloud, choose, img, target, model_points, idx = Variable(cloud).cuda(), \
                                                     Variable(choose).cuda(), \
@@ -83,8 +88,7 @@ for i in range(len(test_dataset)):
                                                     Variable(target).cuda(), \
                                                     Variable(model_points).cuda(), \
                                                     Variable(idx).cuda()
-
-
+    exr_files.append(exr_file)
     pred_r, pred_t, pred_c, emb = estimator(img, cloud, choose, idx)
 
     bs = 1
@@ -98,9 +102,6 @@ for i in range(len(test_dataset)):
     my_r = pred_r[0][which_max[0]].view(-1).cpu().data.numpy()
     my_t = (points + pred_t)[which_max[0]].view(-1).cpu().data.numpy()
     my_pred = np.append(my_r, my_t)
-
-    #print('my_r', my_r)
-    #print('my_t', my_t)
 
     est_mat = quaternion_matrix(my_r)
     est_mat[0:3, 3] = my_t
@@ -183,6 +184,23 @@ for i in range(len(test_dataset)):
     print('estimated trans err', est_t_err)
     print('refined trans err', ref_t_err)
 
+    rr = {
+        'i': i,
+        'exr_file': exr_file,
+        'class': idx.cpu()[0][0].item(),
+        'estimated': {
+            'rotation_err': est_r_err,
+            'translation_err': est_t_err,
+        },
+        'refined': {
+            'rotation_err': ref_r_err,
+            'translation_err': ref_t_err,
+        }
+    }
+    print(rr)
+    results.append(rr)
+
+
     #exit()
 
     #fig = plt.figure()
@@ -205,3 +223,28 @@ print('Mean estimated rotation error', np.array(estimated_r_err).mean())
 print('Mean refined rotation error', np.array(refined_r_err).mean())
 print('Mean estimated translation error', np.array(estimated_t_err).mean())
 print('Mean refined translation error', np.array(refined_t_err).mean())
+
+save_json(results, opt.output_json)
+
+with open('table.tex', 'w') as f:
+    f.write('''
+\\begin{table}
+\\begin{center}
+\\begin{tabular}{ |c||c|c|c|c| }
+\\hline
+ & \\multicolumn{2}{|c|}{Základný odhad} & \\multicolumn{2}{|c|}{Vylepšený odhad} \\\\
+ \\hline
+ Vzorka & Chyba rotácie & Chyba posunu & Chyba rotácie & Chyba posunu \\\\
+ \\hline
+ \\hline\n''')
+    for i in range(len(estimated_r_err)):
+        pp = exr_files[i].split('/')[-2:]
+        pp1 = pp[1].split('_')[:2]
+        name = f'{'\_'.join(pp[0].split('_'))}/{'\_'.join(pp1)}'
+        f.write(f'    {name} & {estimated_r_err[i]:.4f} & {estimated_t_err[i]:.4f} & {refined_r_err[i]:.4f} & {refined_t_err[i]:.4f} \\\\  \\hline\n')
+    f.write('''\\end{tabular}
+\\end{center}
+\\caption{Odhad pózy na testovacej množine}
+\\label{tbl_best_conf}
+\\end{table}''')
+
